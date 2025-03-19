@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="navbar">
+        <div class="logo">LOGO HERE</div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Terms&condition.html">T&C</a></li>
+          </ul>
+        </nav>
+       <a href="exchange.html" class="exchange">Exchange</a>
+    </header>
+    <!-- Formgroup -->
+    <form id="formgroup" >
+        <div class="form-item">
+            <label for="coin" class="lable">Coin</label>
+            <select name="CoinPrice" id="coin" class="detail">
+                <option value="Select">Select</option required>
+                <option value="0.2$">0.2$</option required>
+                <option value="0.5$">0.5$</option required>
+                <option value="1$">1$</option required>
+                <option value="2$">2$</option required>
+                <option value="4$">4$</option required>
+                <option value="6$">6$</option required>
+            </select>
+        </div>
+        <div class="form-item">
+            <label for="username"  class="lable">User Name</label>
+            <input type="text" placeholder="Your name" name="username" id="username" class="detail" required>
+        </div>
+        <div class="form-item">
+            <label for="Mail"  class="lable">Mail</label>
+            <input type="email" placeholder="Your mail" name="mail"  id="mail" class="detail" required>
+        </div>
+        <div class="form-item">
+            <label for="webnum"  class="lable">Whatapp Number</label>
+            <input type="number" placeholder="Phone number" name="PhoneNo" id="webnum" minlength="10" class="detail" required>
+        </div>
+        <div class="form-item">
+            <label for="address" class="lable">Address</label>
+            <input type="text" placeholder="Address" name="Address" id="address" class="detail" required>
+        </div>
+         <input type="submit" value="Continue" id="btn">
+    </form>
+
+      <!-- Paymethod -->
+      <div id="payment">
+        <img src="img/payment.jpg" alt="Paymethod">
+      </div>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="contact">
+        <a href="#">Whatsapp</a>
+        <a href="Terms&condition.html">Terms & Condition</a>
+       </div>
+       <div class="description">
+        Our operating hours are from <b>8:00 AM to 8:00 PM</b>, ensuring that we're available throughout the day to assist you. Once you place an order, we strive to process it quickly, with a standard processing time of <b>2 to 3</b> hours to ensure your convenience and satisfaction.
+       </div>
+     </footer>
+     <script src="script.js" type="module"></script>
+</body>
+</html>
